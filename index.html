@@ -1,0 +1,247 @@
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;fr&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Cloud Native Rabat Community&lt;/title&gt;
+    &lt;style&gt;
+        /* --- Variables de Style --- */
+        :root {
+            --primary-color: #007BFF; /* Bleu vibrant */
+            --secondary-color: #43a047; /* Vert pour les accents */
+            --dark-color: #2c3e50; /* Bleu marine foncé pour le texte */
+            --light-color: #ecf0f1; /* Gris clair pour les fonds */
+            --white-color: #ffffff;
+            --font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- Reset et Styles Généraux --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-family);
+            line-height: 1.6;
+            background-color: var(--white-color);
+            color: var(--dark-color);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+
+        h1, h2 {
+            font-weight: 600;
+            color: var(--dark-color);
+        }
+        
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.2rem;
+            position: relative;
+        }
+
+        /* Ligne décorative sous les titres de section */
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background-color: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        /* --- Header &amp; Navigation --- */
+        .main-header {
+            background-color: var(--white-color);
+            box-shadow: var(--box-shadow);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .main-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-placeholder {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            /* Remplacez ce texte par votre balise <img> une fois le logo prêt */
+            border: 2px dashed var(--secondary-color);
+            padding: 10px 15px;
+            border-radius: var(--border-radius);
+        }
+
+        .main-nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .main-nav a {
+            color: var(--dark-color);
+            text-decoration: none;
+            padding: 10px 15px;
+            font-weight: 500;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .main-nav a:hover {
+            color: var(--white-color);
+            background-color: var(--primary-color);
+        }
+
+        /* --- Section Hero --- */
+        .hero {
+            background: linear-gradient(45deg, rgba(0, 123, 255, 0.8), rgba(67, 160, 71, 0.8)), url('https://www.bouyguestelecom.fr/media/wysiwyg/bg-cloud-1.jpg') no-repeat center center/cover;
+            color: var(--white-color);
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            color: var(--white-color);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            font-weight: 300;
+        }
+
+        /* --- Section "Meet the Team" --- */
+        .team-section {
+            background-color: var(--light-color);
+        }
+
+        .team-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        .team-photo-placeholder {
+            width: 100%;
+            max-width: 700px;
+            height: 450px;
+            background-color: #ccc;
+            border: 3px dashed var(--primary-color);
+            border-radius: var(--border-radius);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #666;
+            box-shadow: var(--box-shadow);
+            /* Utilisez une balise <img> ici pour votre photo */
+        }
+
+        .team-description {
+            max-width: 800px;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        /* --- Footer --- */
+        .main-footer {
+            background-color: var(--dark-color);
+            color: var(--light-color);
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .main-footer p {
+            margin: 0;
+        }
+
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;!-- =================== HEADER =================== --&gt;
+    &lt;header class=&quot;main-header&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;!-- EMPLACEMENT POUR VOTRE LOGO --&gt;
+            &lt;div class=&quot;logo-placeholder&quot;&gt;
+                &lt;!-- Remplacez ce div par : &lt;img src=&quot;path/to/your/logo.svg&quot; alt=&quot;Logo Cloud Native Rabat&quot;&gt; --&gt;
+                Cloud Native Rabat
+            &lt;/div&gt;
+            &lt;nav class=&quot;main-nav&quot;&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Accueil&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#team&quot;&gt;L'équipe&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#events&quot;&gt;Événements&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+        &lt;/div&gt;
+    &lt;/header&gt;
+
+    &lt;main&gt;
+        &lt;!-- =================== SECTION HERO =================== --&gt;
+        &lt;section class=&quot;hero&quot;&gt;
+            &lt;h1&gt;Bienvenue à Cloud Native Rabat&lt;/h1&gt;
+            &lt;p&gt;La communauté pour les passionnés du Cloud, des conteneurs et de l'automatisation.&lt;/p&gt;
+        &lt;/section&gt;
+
+        &lt;!-- =================== SECTION MEET THE TEAM (VOTRE DEMANDE) =================== --&gt;
+        &lt;section id=&quot;team&quot; class=&quot;team-section&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;h2&gt;Meet the Cloud Native Rabat Team&lt;/h2&gt;
+                &lt;div class=&quot;team-content&quot;&gt;
+                    &lt;!-- EMPLACEMENT POUR LA PHOTO DE L'ÉQUIPE --&gt;
+                    &lt;div class=&quot;team-photo-placeholder&quot;&gt;
+                        &lt;span&gt;Emplacement pour la photo de l'équipe (2015)&lt;br&gt;
+                        (Remplacez ce div par votre balise &lt;code&gt;&amp;lt;img src=&quot;path/to/team-photo-2015.jpg&quot;&amp;gt;&lt;/code&gt;)
+                        &lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;p class=&quot;team-description&quot;&gt;
+                        Depuis 2015, notre équipe de passionnés organise des meetups, des workshops et des conférences pour partager les meilleures pratiques du Cloud Native. Nous sommes des développeurs, des ops, des architectes et des étudiants unis par la même passion pour la technologie.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+
+        &lt;!-- Vous pouvez ajouter d'autres sections ici (événements, sponsors, etc.) --&gt;
+
+    &lt;/main&gt;
+
+    &lt;!-- =================== FOOTER =================== --&gt;
+    &lt;footer class=&quot;main-footer&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;p&gt;&amp;copy; 2026 Cloud Native Rabat. Tous droits réservés.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
