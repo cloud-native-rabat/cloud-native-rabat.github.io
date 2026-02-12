@@ -1,1 +1,424 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Cloud Native Rabat - Join Our Student Community</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: linear-gradient(135deg, #326ce5 0%, #f26522 100%); min-height: 100vh; } .container { max-width: 1200px; margin: 0 auto; padding: 20px; } .header { text-align: center; padding: 40px 0; color: white; position: relative; } /* --- NOUVEAU --- Style pour le placeholder du logo */ .logo-placeholder { width: 120px; height: 50px; border: 2px dashed white; color: white; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; font-weight: bold; font-size: 1.1em; opacity: 0.9; border-radius: 8px; } .header h1 { font-size: 3.5em; font-weight: 800; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); } .header p { font-size: 1.5em; opacity: 0.95; margin-bottom: 30px; } .content { background: white; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.2); overflow: hidden; margin-bottom: 40px; } .section { padding: 50px 40px; } .section:nth-child(even) { background: #f8f9ff; } .section h2 { font-size: 2.5em; color: #326ce5; margin-bottom: 25px; text-align: center; } .section p.lead { font-size: 1.2em; text-align: center; max-width: 800px; margin: 0 auto 40px; } .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 30px; } .benefit-card, .goal-card { background: white; padding: 25px 25px 20px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-left: 5px solid #f26522; transition: transform 0.3s ease, box-shadow 0.3s ease; } .benefit-card:hover, .goal-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(50,108,229,0.25); } .benefit-card h3, .goal-card h3 { color: #326ce5; font-size: 1.3em; margin-bottom: 10px; } .benefit-card p, .goal-card p { font-size: 0.98em; } /* --- NOUVEAU --- Style pour le placeholder de la photo d'Ã©quipe */ .team-photo-placeholder { width: 100%; max-width: 800px; height: 450px; margin: 20px auto 0; background-color: #e9ecef; border: 3px dashed #326ce5; border-radius: 15px; display: flex; justify-content: center; align-items: center; text-align: center; font-size: 1.2rem; color: #6c757d; box-shadow: 0 10px 30px rgba(0,0,0,0.08); } .cta-section { background: linear-gradient(135deg, #f26522, #e55a00); color: white; text-align: center; padding: 60px 40px; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.2); } .cta-section h2 { color: white; font-size: 2.6em; margin-bottom: 20px; } .event-info { background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin: 25px 0 30px; backdrop-filter: blur(10px); } .event-info h3 { font-size: 1.5em; margin-bottom: 10px; } .cta-buttons { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px; } .btn { padding: 14px 32px; border: none; border-radius: 999px; font-size: 1.05em; font-weight: 600; cursor: pointer; text-decoration: none; transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 8px; } .btn-primary { background: white; color: #326ce5; } .btn-primary:hover { transform: scale(1.05); box-shadow: 0 15px 30px rgba(255,255,255,0.4); } .btn-secondary { background: transparent; color: white; border: 2px solid white; } .btn-secondary:hover { background: white; color: #f26522; } footer { text-align: center; padding: 25px; color: white; opacity: 0.9; font-size: 0.95em; } @media (max-width: 768px) { .header h1 { font-size: 2.5em; } .header p { font-size: 1.2em; } .section { padding: 30px 20px; } .cta-section { padding: 40px 20px; } .cta-buttons { flex-direction: column; align-items: center; } .btn { width: 100%; justify-content: center; } } @media print { body { background: white !important; box-shadow: none; -webkit-print-color-adjust: exact; print-color-adjust: exact; } .container { max-width: none; margin: 0; padding: 0; } .header { color: black !important; text-shadow: none; padding-bottom: 20px; } .content { box-shadow: none; border-radius: 0; margin-bottom: 20px; } .cta-section { border-radius: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; } .btn { -webkit-print-color-adjust: exact; print-color-adjust: exact; } a { color: inherit; text-decoration: none; } @page { size: A4; margin: 10mm; } } </style> </head> <body> <div class="container"> <header class="header"> <!-- NOUVEAU : Emplacement pour le logo --> <div class="logo-placeholder"> <!-- Remplacez ce div par votre balise <img src="..."> --> Logo </div> <h1>Cloud Native Rabat</h1> <p>Build your tech career. Join Cloud Native enthusiasts mastering Kubernetes, DevOps, and cloud-native technologies.</p> </header> <div class="content"> <section class="section"> <h2>What We Are</h2> <p class="lead"> Cloud Native Rabat is a local community for students and professionals who want to learn and build with modern cloud-native technologies such as Kubernetes, containers, and observability tools. We are part of the official Cloud Native Computing Foundation (CNCF) community network. </p> </section> <section class="section"> <h2>Why Join ?</h2> <div class="grid"> <div class="benefit-card"> <h3>Real Job Skills</h3> <p> Learn Kubernetes, CI/CD, microservices, and cloud infrastructure â€” the same tools used by modern companies in Morocco and worldwide. </p> </div> <div class="benefit-card"> <h3>Stronger Portfolio</h3> <p> Build real projects, contribute to open source, speak at meetups, and showcase certifications to stand out in internships and job applications. </p> </div> <div class="benefit-card"> <h3>Career Network</h3> <p> Connect with mentors, cloud engineers, and community leaders who can guide you and open doors to opportunities. </p> </div> <div class="benefit-card"> <h3>Free Learning Resources</h3> <p> Access study groups, shared materials, and guidance for certifications such as KCNA, CKAD, and more. </p> </div> <div class="benefit-card"> <h3>Supportive Community</h3> <p> Learn with other motivated folks in a friendly environment where questions are always welcome. </p> </div> </div> </section> <section class="section"> <h2>Our Goals for You</h2> <div class="grid"> <div class="goal-card"> <h3>From Zero to Cloud-Native</h3> <p> Help complete beginners understand the foundations of containers, Kubernetes, and cloud-native principles. </p> </div> <div class="goal-card"> <h3>Certification Readiness</h3> <p> Support you in preparing for cloud-native certifications through study groups, practice sessions, and shared resources. </p> </div> <div class="goal-card"> <h3>Open Source Contributions</h3> <p> Guide you to make your first contributions to CNCF open-source projects and build a visible track record. </p> </div> <div class="goal-card"> <h3>Leadership Development</h3> <p> Encourage you to grow from attendee to speaker, mentor, and eventually organizer within the community. </p> </div> <div class="goal-card"> <h3>Bridge to Industry</h3> <p> Connect students with local and international professionals, companies, and events in the cloud-native ecosystem. </p> </div> </div> </section> <!-- NOUVEAU : Section "Meet the Team" --> <section class="section" id="team"> <h2>Meet the Cloud Native Rabat Team</h2> <p class="lead"> The passionate individuals who started it all back in 2015 and continue to drive our community forward. </p> <!-- Emplacement pour la photo d'Ã©quipe --> <div class="team-photo-placeholder"> <span>Placeholder for the 2015 team photo</span> <!-- Remplacez le span ci-dessus par votre balise <img src="..."> --> </div> </section> </div> <section class="cta-section"> <h2>Join Our Next Event</h2> <div class="event-info"> <h3>Practical Observability: From Alert to Root Cause</h3> <p><strong>Date:</strong>Wednesday, March 4th, 2026</p> <p><strong>Time:</strong> 4:00 PM</p> <p><strong>Location:</strong>Virtual Event</p> <p>Learn how to cut through the noise and demonstrate a production-ready observability setup. No prior experience required.</p> <a href="https://community.cncf.io/events/details/cncf-cloud-native-rabat-presents-practical-observability-from-alert-to-root-cause/" target="_blank"> Register for the event </a> </div> <div class="cta-buttons"> <!-- Replace the links below with your real links --> <a href="https://chat.whatsapp.com/JIrkrW3x9cAFYotkMAjLdD?mode=gi_t" class="btn btn-primary" target="_blank"> WhatsApp Group </a> <a href="https://community.cncf.io/cloud-native-rabat/" class="btn btn-secondary" target="_blank"> Join our online community </a> <a href="https://www.linkedin.com/company/cloud-native-rabat/" class="btn btn-primary" target="_blank"> Follow us on linkedin </a> </div> </section> <footer> <p>Cloud Native Rabat &mdash; A local Cloud Native Community Group for students and professionals in Morocco.</p> </footer> </div> </body> </html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Native Rabat - Join Our Student Community</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: linear-gradient(135deg, #326ce5 0%, #f26522 100%);
+        min-height: 100vh;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .header {
+        text-align: center;
+        padding: 40px 0;
+        color: white;
+        position: relative;
+      }
+      .logo-placeholder {
+        width: 120px;
+        height: 50px;
+        border: 2px dashed white;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 25px;
+        font-weight: bold;
+        font-size: 1.1em;
+        opacity: 0.9;
+        border-radius: 8px;
+      }
+      .header h1 {
+        font-size: 3.5em;
+        font-weight: 800;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      .header p {
+        font-size: 1.5em;
+        opacity: 0.95;
+        margin-bottom: 30px;
+      }
+      .content {
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin-bottom: 40px;
+      }
+      .section {
+        padding: 50px 40px;
+      }
+      .section:nth-child(even) {
+        background: #f8f9ff;
+      }
+      .section h2 {
+        font-size: 2.5em;
+        color: #326ce5;
+        margin-bottom: 25px;
+        text-align: center;
+      }
+      .section p.lead {
+        font-size: 1.2em;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto 40px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+        margin-top: 30px;
+      }
+      .benefit-card,
+      .goal-card {
+        background: white;
+        padding: 25px 25px 20px;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        border-left: 5px solid #f26522;
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+      }
+      .benefit-card:hover,
+      .goal-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(50, 108, 229, 0.25);
+      }
+      .benefit-card h3,
+      .goal-card h3 {
+        color: #326ce5;
+        font-size: 1.3em;
+        margin-bottom: 10px;
+      }
+      .benefit-card p,
+      .goal-card p {
+        font-size: 0.98em;
+      }
+      .team-photo-placeholder {
+        width: 100%;
+        max-width: 800px;
+        height: 450px;
+        margin: 20px auto 0;
+        background-color: #e9ecef;
+        border: 3px dashed #326ce5;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #6c757d;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      }
+      .cta-section {
+        background: linear-gradient(135deg, #f26522, #e55a00);
+        color: white;
+        text-align: center;
+        padding: 60px 40px;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      }
+      .cta-section h2 {
+        color: white;
+        font-size: 2.6em;
+        margin-bottom: 20px;
+      }
+      .event-info {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 25px;
+        border-radius: 15px;
+        margin: 25px 0 30px;
+        backdrop-filter: blur(10px);
+      }
+      .event-info h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+      .cta-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+      .btn {
+        padding: 14px 32px;
+        border: none;
+        border-radius: 999px;
+        font-size: 1.05em;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .btn-primary {
+        background: white;
+        color: #326ce5;
+      }
+      .btn-primary:hover {
+        transform: scale(1.05);
+        box-shadow: 0 15px 30px rgba(255, 255, 255, 0.4);
+      }
+      .btn-secondary {
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+      }
+      .btn-secondary:hover {
+        background: white;
+        color: #f26522;
+      }
+      footer {
+        text-align: center;
+        padding: 25px;
+        color: white;
+        opacity: 0.9;
+        font-size: 0.95em;
+      }
+      @media (max-width: 768px) {
+        .header h1 {
+          font-size: 2.5em;
+        }
+        .header p {
+          font-size: 1.2em;
+        }
+        .section {
+          padding: 30px 20px;
+        }
+        .cta-section {
+          padding: 40px 20px;
+        }
+        .cta-buttons {
+          flex-direction: column;
+          align-items: center;
+        }
+        .btn {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+      @media print {
+        body {
+          background: white !important;
+          box-shadow: none;
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        .container {
+          max-width: none;
+          margin: 0;
+          padding: 0;
+        }
+        .header {
+          color: black !important;
+          text-shadow: none;
+          padding-bottom: 20px;
+        }
+        .content {
+          box-shadow: none;
+          border-radius: 0;
+          margin-bottom: 20px;
+        }
+        .cta-section {
+          border-radius: 0;
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        .btn {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+        @page {
+          size: A4;
+          margin: 10mm;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <!-- Emplacement pour le logo -->
+        <h1>Cloud Native Rabat</h1>
+        <p>
+          Build your tech career. Join Cloud Native enthusiasts mastering
+          Kubernetes, DevOps, and cloud-native technologies.
+        </p>
+      </header>
+      <div class="content">
+        <section class="section">
+          <h2>What We Are</h2>
+          <p class="lead">
+            Cloud Native Rabat is a local community for students and
+            professionals who want to learn and build with modern cloud-native
+            technologies such as Kubernetes, containers, and observability
+            tools. We are part of the official Cloud Native Computing Foundation
+            (CNCF) community network.
+          </p>
+        </section>
+        <section class="section">
+          <h2>Why Join ?</h2>
+          <div class="grid">
+            <div class="benefit-card">
+              <h3>Real Job Skills</h3>
+              <p>
+                Learn Kubernetes, CI/CD, microservices, and cloud infrastructure
+                — the same tools used by modern companies in Morocco and
+                worldwide.
+              </p>
+            </div>
+            <div class="benefit-card">
+              <h3>Stronger Portfolio</h3>
+              <p>
+                Build real projects, contribute to open source, speak at
+                meetups, and showcase certifications to stand out in internships
+                and job applications.
+              </p>
+            </div>
+            <div class="benefit-card">
+              <h3>Career Network</h3>
+              <p>
+                Connect with mentors, cloud engineers, and community leaders who
+                can guide you and open doors to opportunities.
+              </p>
+            </div>
+            <div class="benefit-card">
+              <h3>Free Learning Resources</h3>
+              <p>
+                Access study groups, shared materials, and guidance for
+                certifications such as KCNA, CKAD, and more.
+              </p>
+            </div>
+            <div class="benefit-card">
+              <h3>Supportive Community</h3>
+              <p>
+                Learn with other motivated folks in a friendly environment where
+                questions are always welcome.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <h2>Our Goals for You</h2>
+          <div class="grid">
+            <div class="goal-card">
+              <h3>From Zero to Cloud-Native</h3>
+              <p>
+                Help complete beginners understand the foundations of
+                containers, Kubernetes, and cloud-native principles.
+              </p>
+            </div>
+            <div class="goal-card">
+              <h3>Certification Readiness</h3>
+              <p>
+                Support you in preparing for cloud-native certifications through
+                study groups, practice sessions, and shared resources.
+              </p>
+            </div>
+            <div class="goal-card">
+              <h3>Open Source Contributions</h3>
+              <p>
+                Guide you to make your first contributions to CNCF open-source
+                projects and build a visible track record.
+              </p>
+            </div>
+            <div class="goal-card">
+              <h3>Leadership Development</h3>
+              <p>
+                Encourage you to grow from attendee to speaker, mentor, and
+                eventually organizer within the community.
+              </p>
+            </div>
+            <div class="goal-card">
+              <h3>Bridge to Industry</h3>
+              <p>
+                Connect students with local and international professionals,
+                companies, and events in the cloud-native ecosystem.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Section "Meet the Team" -->
+        <section class="section" id="team">
+          <h2>Meet the Cloud Native Rabat Team</h2>
+          <p class="lead">
+            The passionate individuals who started it all back in 2015 and
+            continue to drive our community forward.
+          </p>
+          <!-- Emplacement pour la photo d'équipe -->
+          <div class="team-photo-placeholder">
+            <span>Placeholder for the 2015 team photo</span>
+            <img src="team.jpg" />
+          </div>
+        </section>
+      </div>
+      <section class="cta-section">
+        <h2>Join Our Next Event</h2>
+        <div class="event-info">
+          <h3>Practical Observability: From Alert to Root Cause</h3>
+          <p><strong>Date:</strong> Wednesday, March 4th, 2026</p>
+          <p><strong>Time:</strong> 4:00 PM</p>
+          <p><strong>Location:</strong> Virtual Event</p>
+          <p>
+            Learn how to cut through the noise and demonstrate a
+            production-ready observability setup. No prior experience required.
+          </p>
+          <a
+            href="https://community.cncf.io/events/details/cncf-cloud-native-rabat-presents-practical-observability-from-alert-to-root-cause/"
+            target="_blank"
+            >Register for the event</a
+          >
+        </div>
+        <div class="cta-buttons">
+          <a
+            href="https://chat.whatsapp.com/JIrkrW3x9cAFYotkMAjLdD?mode=gi_t"
+            class="btn btn-primary"
+            target="_blank"
+            >WhatsApp Group</a
+          >
+          <a
+            href="https://community.cncf.io/cloud-native-rabat/"
+            class="btn btn-secondary"
+            target="_blank"
+            >Join our online community</a
+          >
+          <a
+            href="https://www.linkedin.com/company/cloud-native-rabat/"
+            class="btn btn-primary"
+            target="_blank"
+            >Follow us on linkedin</a
+          >
+        </div>
+      </section>
+      <footer>
+        <p>
+          Cloud Native Rabat &mdash; A local Cloud Native Community Group for
+          students and professionals in Morocco.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
